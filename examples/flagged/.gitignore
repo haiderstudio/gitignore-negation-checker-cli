@@ -1,0 +1,6 @@
+# A negation written before the pattern it re-includes.
+!keep.txt
+*.txt
+# A file re-included from inside an ignored folder.
+build/
+!build/keep.txt

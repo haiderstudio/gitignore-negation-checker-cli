@@ -1,0 +1,9 @@
+# Ignore logs and build output, keep the files we ship.
+*.log
+*.txt
+!keep.txt
+build/*
+!build/keep.txt
+docs/
+!docs/
+!docs/guide.txt

@@ -1,0 +1,7 @@
+# Negations that work, in their trickier forms.
+**/*.log
+!debug.log
+tmp/*
+!tmp/keep.txt
+*.[oa]
+![abc].o
